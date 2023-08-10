@@ -13,8 +13,6 @@
   <li><a href="https://github.com/folkenberg00/At-Sensor-Brightness-Temperature/blob/main/b.temp.py">b.temp.py </a> Python program</li>
   <li><a href="https://github.com/folkenberg00/At-Sensor-Brightness-Temperature/blob/main/output/">B10.brightness.temp.png & B11.brightness.temp.png </a> At sensor brightness temperature plots</li>
 <li><a href="https://github.com/folkenberg00/At-Sensor-Brightness-Temperature/blob/main/input/">TIRS bands 10 & 11 radiance </a> Thermal Infrared Sensor Bands 10 & 11 Radiance </li>
-<li><a href="https://github.com/folkenberg00/At-Sensor-Brightness-Temperature/blob/main/input/">TIRS Band 10 & 11 Radiance </a>Thermal Infrared Sensor Bands 10 & 11 Radiance</li>
-</ul>
 
 
 
