@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+'''
+	10.08.2023
+	Robert Folkenberg Siro
+	Nuclear Eng. & Thermal Physics, NRNU MEPhI
+	Geospatial (Optical Multispectral & Hyperspectral RS), The Technical University of Kenya 2019
+'''
 
 from osgeo import gdal;
 import numpy, matplotlib.pyplot as mpl;
