@@ -6,8 +6,7 @@
 	Geospatial (Optical Multispectral & Hyperspectral RS), The Technical University of Kenya 2019
 '''
 
-from osgeo import gdal;
-import numpy, matplotlib.pyplot as mpl;
+from osgeo import gdal; import numpy;
 
 band_no=input('ENTER BAND NUMBER: ');
 band_no=int(band_no);
