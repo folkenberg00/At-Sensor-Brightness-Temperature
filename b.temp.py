@@ -29,7 +29,7 @@ if band_no in(10,11):
   else:
   	K_1=float(data['K1_CONSTANT_BAND_11']);
   	K_2=float(data['K2_CONSTANT_BAND_11']);
-  from_dir="./input";
+  from_dir="./input/";
   xrad_ds=gdal.Open(from_dir+band+str(band_no)+'.TIF');
   xrad=xrad_ds.GetRasterBand(1);
   L=xrad.ReadAsArray();
@@ -38,7 +38,7 @@ if band_no in(10,11):
   	return (((K_2)/(numpy.log((K_1/L)+1)))-273.15);
   L=L.astype(numpy.float64);
   btemp=rad_btemp(L,K_1,K_2);
-  to_dir="./output/b.temperature/";
+  to_dir="./output/";
   new_btemp=gdal.GetDriverByName('GTiff').Create(\
   	to_dir+band+str(band_no)+'.TIF',\
   	xrad_ds.RasterXSize,xrad_ds.RasterYSize,1,\
